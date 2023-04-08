@@ -10,7 +10,7 @@
 element.style{
   --v-btn-text-primary: #fff;
   --color-primary: #F32157;
-  --color-warning: #992020;
+  --color-warning: #890729 !important;
   --panel-toolbar-icon-btn-width: 48px;
   --panel-toolbar-text-btn-height: 48px;
   --topbar-icon-btn-width: 48px;
@@ -344,4 +344,11 @@ svg a#stepper_off.warning[data-v-7e121d54] {
     border-color: black !important;
     border-bottom-left-radius: 1em;
     border-bottom-right-radius: 1em;
+}
+.nav-logo {
+    height: 70px !important;
+}
+.v-application .warning {
+    background-color: #890729 !important;
+    border-color: #890729 !important;
 }
