@@ -23,7 +23,6 @@ svg g.home_button[data-v-7e121d54], svg a#home_all_center[data-v-7e121d54] {
 svg a#stepper_off.warning[data-v-7e121d54] {
     fill: #890729;
 }
-}
 .v-main{
   padding-top: 100px!important;
   background-color: rgba(25, 25, 25, 0.808) !important;
@@ -328,7 +327,7 @@ svg a#stepper_off.warning[data-v-7e121d54] {
 }
 .v-dialog {
     border-radius: 4px;
-    margin: 24px;
+    margin: 0px;
     overflow-y: auto;
     pointer-events: auto;
     transition: .3s cubic-bezier(.25,.8,.25,1);
