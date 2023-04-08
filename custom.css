@@ -55,6 +55,7 @@ svg a#stepper_off.warning[data-v-7e121d54] {
     border-color: transparent !important;
     border-bottom-left-radius: 1em;
     border-bottom-right-radius: 1em;
+    box-shadow: 13px 13px 55px -7px rgba(0,0,0,0.75);
 }
 
 .v-application .panel{
