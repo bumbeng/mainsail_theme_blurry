@@ -1,7 +1,7 @@
 # mainsail_theme_blurry
 A nice blurry theme for mainsail
 
-![image](https://user-images.githubusercontent.com/111509593/231391125-fe4a7350-0e6f-4f87-8f3f-fe859941cd3d.png)
+![image](https://user-images.githubusercontent.com/111509593/231391429-a9de11d1-efbb-4303-bc0b-609ca660e8b8.png)
 
 copy this files in to /.theme folder 
 
