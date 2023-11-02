@@ -6,6 +6,6 @@ A nice blurry theme for mainsail
 | ![image](https://user-images.githubusercontent.com/111509593/231391429-a9de11d1-efbb-4303-bc0b-609ca660e8b8.png) | ![Screenshot 2023-10-30 025359](https://github.com/bumbeng/mainsail_theme_blurry/assets/111509593/0ea2c150-778a-448e-9d8e-8a4d47c3b949) |
 
 
-copy this files in to /.theme folder 
+copy files from version 1 or version 2 to /.theme folder 
 
-!!make sure hidden folders are visible!!
+!!make sure hidden folders in mainsail are visible!!
