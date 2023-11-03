@@ -1,4 +1,4 @@
-# blurry purple theme for Mainsail 
+# Mainsail theme blurry
 
 ![Screenshot](https://github.com/bumbeng/mainsail_theme_blurry/assets/111509593/0fb314ff-5f0c-4243-9103-60f101bf4ad9)
 
