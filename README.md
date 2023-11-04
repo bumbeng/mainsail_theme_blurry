@@ -1,6 +1,7 @@
 # Mainsail theme blurry
 
-![Screenshot](https://github.com/bumbeng/mainsail_theme_blurry/assets/111509593/0fb314ff-5f0c-4243-9103-60f101bf4ad9)
+![Screenshot](https://github.com/bumbeng/mainsail_theme_blurry/assets/111509593/fde133c4-5a5c-46cd-97ac-3a7d568e515d)
+
 
 
 - make hidden folders visible
