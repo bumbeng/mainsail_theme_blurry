@@ -1,6 +1,6 @@
 # Mainsail theme blurry
 
-![Screenshot](https://github.com/bumbeng/mainsail_theme_blurry/assets/111509593/fde133c4-5a5c-46cd-97ac-3a7d568e515d)
+![Screenshot 2023-11-06 201109](https://github.com/bumbeng/mainsail_theme_blurry/assets/111509593/bc4f940c-7490-4e19-8010-41e329c12585)
 
 
 
