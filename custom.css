@@ -15,6 +15,7 @@
     --v-success-base: #4f8551 !important;
     --v-warning-base: #db7200;  
 }
+
 .topbar{
   box-shadow: none !important;
   background-color: rgba(25,25,25,0.6) !important;
@@ -26,32 +27,28 @@
 
 .topbar .v-toolbar__content{
   height: 100px !important;
-    
 }
+
 svg g.home_button[data-v-7e121d54], svg a#home_all_center[data-v-7e121d54] {
-    fill: #890729;
+    fill: #db7200;
     transition: opacity .25s;
 }
 
 svg a#stepper_off.warning[data-v-7e121d54] {
-    fill: #890729;
+    fill: #db7200;
 }
 
 .v-main{
   padding-top: 100px!important;
-  background-color: rgba(25, 25, 25, 0.608) !important;
-}
-
-.topbar div{
-  background: transparent
 }
 
 .v-application--wrap .v-navigation-drawer {
     height: 100vh !important;
     top: 100px !important;
     max-height: calc(100% - 100px) !important;
-    background-color: rgba(25, 25, 25, 0.608) !important;
+    background-color: transparent !important;
     box-shadow: 0px 10px 13px -7px #000000, 5px 5px 34px 5px rgba(0,0,0,0.64);
+    background-image: none !important;
 }
 
 .v-sheet.v-card {
@@ -61,7 +58,7 @@ svg a#stepper_off.warning[data-v-7e121d54] {
 }
 
 .v-card>*:last-child:not(.v-btn):not(.v-chip):not(.v-avatar) {
-    background-color: rgba(25, 25, 25, 0.608);
+    background-color: rgba(25, 25, 25, 0.5);
     border-color: transparent !important;
     border-bottom-left-radius: 1em;
     border-bottom-right-radius: 1em;
@@ -107,15 +104,7 @@ svg a#stepper_off.warning[data-v-7e121d54] {
   background-color: rgba(25, 25, 25, 0.295) !important;
 }
 
-.v-item-group > div{
-  transition: all 0.4s cubic-bezier(0.7,0,0.0,1.0) !important;
-}
-
 .v-tabs-items {
-  background-color: rgba(25, 25, 25, 0.295) !important;
-}
-
-.v-tabs-items div{
   background-color: rgba(25, 25, 25, 0.295) !important;
 }
 
@@ -124,7 +113,8 @@ svg a#stepper_off.warning[data-v-7e121d54] {
 }
 
 .v-dialog .v-card {
-  background: rgba(50,50,50,1.0) !important;
+  backdrop-filter: blur(40px) !important;
+  -webkit-backdrop-filter: blur(40px);
 }
 
 .v-divider {
@@ -132,7 +122,6 @@ svg a#stepper_off.warning[data-v-7e121d54] {
 }
 
 .v-main__wrap .v-card .panel-toolbar {
-  background: rgba(25,25,25,0.6) !important;
   border-color: transparent !important;
   border-top-left-radius: 1em;
   border-top-right-radius: 1em;
@@ -177,9 +166,7 @@ svg a#stepper_off.warning[data-v-7e121d54] {
 }
 
 .theme--dark.v-sheet {
-    background-color: transparent;
-    border-color: transparent;
-    color: #fff;
+    border: none !important;
 }
 
 .webcamImage[data-v-54b8defe] {
@@ -191,10 +178,6 @@ svg a#stepper_off.warning[data-v-7e121d54] {
 }
 
 .v-data-table>.v-data-table__wrapper {
-    background-color: transparent !important;
-}
-
-.v-tabs-items div {
     background-color: transparent !important;
 }
 
@@ -215,25 +198,17 @@ svg a#stepper_off.warning[data-v-7e121d54] {
 }
 
 .v-application .py-sm-6 {
-    padding-top: 80px!important;
+    padding-top: 30px!important;
     padding-bottom: 24px!important;
 }
 
 .v-sheet.v-card:not(.v-sheet--outlined) {
-    box-shadow: 0 3px 1px -2px #0003, 0 2px 2px #00000024, 0 1px 5px #0000001f;
     border-radius: 1em;
+    background-color: transparent;
 }
 
 .v-dialog {
     border-radius: 4px;
-    margin: 0px;
-    overflow-y: auto;
-    pointer-events: auto;
-    transition: .3s cubic-bezier(.25,.8,.25,1);
-    width: 100%;
-    z-index: inherit;
-    outline: none;
-    box-shadow: 0 11px 15px -7px #0003, 0 24px 38px 3px #00000024, 0 9px 46px 8px #0000001f;
     border-bottom-right-radius: 1em;
     border-bottom-left-radius: 1em;
 }
@@ -247,7 +222,7 @@ svg a#stepper_off.warning[data-v-7e121d54] {
 }
 
 .nav-logo {
-    height: 50px !important;
+    height: 70px !important;
 }
 
 .v-application .warning:not(.v-btn:not(.v-btn--round).v-size--small) {
@@ -261,7 +236,7 @@ svg a#stepper_off.warning[data-v-7e121d54] {
     border-color: #bd1a1a !important;
 }
 
-.v-application .primary {
+.v-application .primary:not(.v-btn:not(.v-btn--round).v-size--small) {
     background-color: #db7200 !important;
     border-color: #db7200 !important;
     border-radius: 0.5em;
@@ -291,10 +266,6 @@ svg a#stepper_off.warning[data-v-7e121d54] {
     margin-left: -4px;
 }
 
-.v-input--selection-controls__ripple {
-    border-radius: 0.75em;
-}
-
 .file-list-cursor {
     border-radius: 1em;
 }
@@ -317,8 +288,8 @@ svg a#stepper_off.warning[data-v-7e121d54] {
 
 .theme--dark.v-btn.v-btn--has-bg:not(.v-btn:not(.v-btn--round).v-size--small) {
     background-color: rgba(23, 23,23,0.3);
-  
 }
+
 .webcamImage[data-v-951c0690] {
     border-bottom-left-radius: 1em;
     border-bottom-right-radius: 1em;
@@ -326,12 +297,7 @@ svg a#stepper_off.warning[data-v-7e121d54] {
 
 .expanded header.v-toolbar[data-v-467ae16f] {
     border-bottom-left-radius: 1em;
-    border-bottom-right-radius: 1em;
-}
-
-.os-viewport {
-    border-bottom-left-radius: 1em;
-    border-bottom-right-radius: 1em; 
+    border-bottom-right-radius: 1em;  
 }
 
 .v-tab {
@@ -353,11 +319,11 @@ svg a#stepper_off.warning[data-v-7e121d54] {
 }
 
 .theme--dark.v-data-table>.v-data-table__wrapper>table>tbody>tr:hover:not(.v-data-table__expanded__content):not(.v-data-table__empty-wrapper) {
-    background: rgba(23, 23,23,0.5);
+    background: rgba(23, 23,23,0.2);
 }
 
 .theme--dark.v-toolbar.v-sheet {
-    background-color: rgba(30, 30, 30, 0.608);
+    background-color: rgba(30, 30, 30, 0.5);
 }
 
 .v-card__subtitle, .v-card__text, .v-card__title {
@@ -371,6 +337,7 @@ svg a#stepper_off.warning[data-v-7e121d54] {
 img {
     border-radius: .5em;
 }
+
 .v-application .primary--text {
     color: var(--v-primary-base) !important;
     caret-color: var(--v-primary-base) !important;
@@ -391,6 +358,7 @@ img {
 
 .viewer {
     border-radius: 10px;
+    opacity: 0.6;
 }
 
 ._btn-group .v-btn[data-v-3646954a] {
@@ -424,7 +392,9 @@ img {
 
 .theme--dark.v-card>.v-card__text, .theme--dark.v-card>.v-card__subtitle {
     color: #ffffffb3;
-    background-color: rgb(41, 41, 41);
+    background-color: transparent;
+    backdrop-filter: blur(40px)!important;
+    -webkit-backdrop-filter: blur(40px);
 }
 
 .v-list-item__title {
@@ -450,3 +420,18 @@ img {
     border-radius: 1em;
 }
 
+.v-navigation-drawer__image {
+    opacity: 0.3;
+}
+
+.v-btn {
+    border-radius: 6px;
+}
+
+.dragable-item[data-v-50fe7cb0], .dragable-item[data-v-2ba4ce8c] {
+    background-color: rgba(23,23,23,0.3);
+}
+
+.ͼo {
+    background-color: rgba(25, 25, 25, 0.808);
+}
