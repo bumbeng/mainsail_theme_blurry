@@ -435,3 +435,6 @@ img {
 .ͼo {
     background-color: rgba(25, 25, 25, 0.808);
 }
+.v-application .primary {
+    background-color: #595858 !important;
+}
