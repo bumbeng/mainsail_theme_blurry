@@ -1,6 +1,7 @@
 # Mainsail theme blurry
 
-![Screenshot](https://github.com/bumbeng/mainsail_theme_blurry/assets/111509593/536ee6aa-6419-43bb-bfbb-b9954eea5741)
+![Screenshot 2023-11-27 051516](https://github.com/bumbeng/mainsail_theme_blurry/assets/111509593/88f39442-11f2-4772-9609-e520bf9de82e)
+
 
 - make hidden folders visible
 - create a folder called ./theme in machine section
