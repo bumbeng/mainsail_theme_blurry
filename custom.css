@@ -1,16 +1,4 @@
 :root {
-    --v-anchor-base: #f32157;
-    --v-primary-base: #ffffff;
-    --v-primary-lighten5: #ffc4d9;
-    --v-primary-lighten4: #ffa6be;
-    --v-primary-lighten3: #ff88a3;
-    --v-primary-lighten2: #ff6988;
-    --v-primary-lighten1: #ff496f;
-    --v-primary-darken1: #d30040;
-    --v-primary-darken2: #b3002b;
-    --v-primary-darken3: #930017;
-    --v-primary-darken4: #740000;
-    --v-error-base: #ff0000;
     --v-secondary-darken1: rgba(173, 0, 0, 0.44);
     --v-success-base: #4f8551 !important;
     --v-warning-base: #db7200;  
@@ -437,4 +425,11 @@ img {
 }
 .v-application .primary {
     background-color: #595858 !important;
+}
+.webcamStream {
+    aspect-ratio: auto!important;
+    border-bottom-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+    border-top-left-radius: 0!important;
+    border-top-right-radius: 0!important;
 }
