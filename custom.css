@@ -174,15 +174,7 @@ svg a#stepper_off.warning[data-v-7e121d54] {
 }
 
 .v-menu__content {
-    position: absolute;
-    display: inline-block;
-    max-width: 80%;
-    overflow-y: auto;
-    overflow-x: hidden;
-    contain: content;
-    box-shadow: 0 5px 5px -3px #0003, 0 8px 10px 1px #00000024, 0 3px 14px 2px #0000001f;
     border-radius: 1em;
-    background-color:  rgba(25, 25, 25, 0.9);
 }
 
 .v-application .py-sm-6 {
